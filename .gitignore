@@ -1,0 +1,65 @@
+############################
+# ──   Node / NPM / Yarn  ──
+############################
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+##########################
+# ──   Hardhat output  ──
+##########################
+artifacts/
+cache/
+typechain-types/
+coverage/
+gasReporterOutput/
+
+########################
+# ──   Env / Secrets ──
+########################
+.env
+.env.*
+secret/
+*.key
+*.pem
+
+#######################
+# ──   IDE / OS  ──
+#######################
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+###############################
+# ──   Logs & Temp files   ──
+###############################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tgz
+*.log
+
+###############################
+# ──   Static Builds (front-end) ──
+###############################
+.next/
+dist/
+build/
+out/
+.turbo/
+
+#################################
+# ──   Large external clones ──
+#################################
+defillama-adapters/
+projects/
+
+#################################
+# ──   Generated inside kl-vault ──
+#################################
+kl-vault/typechain-types/
+kl-vault/yarn.lock
